@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[a4paper,portrait,margin=1in]{geometry}
+\usepackage{multicol}
+\pagenumbering{gobble}
+
+\title{Efectul fotoelectric extern}
+\date{}
+\begin{document}
+\maketitle
+
+\section*{Definiție}
+Fenomenul de emisie de electroni de către un corp aflat sub acțiunea radiațiilor electromagnetice.
+\section*{Legile efectului fotoelectric}
+\begin{itemize}
+	\item Intensitatea curentului fotoelectric de saturație este direct proporțională cu fluxul radiațiilor electromagnetice incidente când frecvența e constantă.
+	\item Energia cinetică a fotoelectronilor crește liniar cu frecvența radiațiilor electromagnetice și nu depinde de fluxul acestora.
+	\item Efectul fotoelectric extern se poate produce numai dacă frecvența radiațiilor precedente este $\geq$ cu o valoare minimă specifică fiecărei substanțe.
+	\item Efectul fotoelectric se produce instantaneu.
+\end{itemize}
+
+\section*{Ecuații}
+\begin{multicols}{2}
+$$
+h\nu = L + \frac{mv^2}{2}
+$$
+
+$h\nu$ : energia radiației incidente
+
+$L = h\nu_0$ : lucru mecanic de extracție
+
+$\nu_0$ : frecveță de prag
+\columnbreak
+$$
+E c = \frac{mv^2}{2} = e U_S^-
+$$
+
+$h = 6,626 \times 10^{-34}\ J s$ : constanta Plank
+
+$|e| = 1,6 \times 10^{-19}\ C$
+
+$c = 3 \times 10^{8}\ m/s$ : viteza luminii
+\end{multicols}
+\begin{multicols}{2}
+$$
+p = \frac{h}{\lambda} = \frac{h\nu}{c}
+$$
+
+$$
+\nu = \frac{c}{\lambda}
+$$
+\end{multicols}
+\section*{Aplicații ale efectului Compton}
+\begin{multicols}{2}
+	$h\nu = 3,6 \times 10^{-15} J$
+
+	$E c = 8 \times 10^{-20} j$
+
+	\begin{enumerate}[label=\alph*)]
+		\item $\nu = ?$
+		\item $N = ?$
+		\item $L = ?$
+		\item $\lambda_0 = ?$
+	\end{enumerate}
+
+	$\Delta t = 1s$
+
+	$I = 1mA$
+
+	\columnbreak
+
+	\begin{enumerate}[label=\alph*)]
+		\item $\nu = \frac{3,6 \times 10^{-19}}{6,626 \times 10^{-34}}$
+		\item $I = \frac{Ne}{\Delta t} \Rightarrow N = \frac{I \Delta t}{e} = \frac{10^{-9}}{1,6 \times 10^{-19}}$
+		\item $h\nu = L + E c = 3,6 \times 10^{-19} - 8 \times 10^{-20}$
+		\item $L = h\nu_0 = \frac{h c}{\lambda_0}$
+	\end{enumerate}
+\end{multicols}
+\end{document}

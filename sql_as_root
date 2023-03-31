@@ -1,0 +1,4 @@
+CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
+GRANT ALL PRIVILEGES ON test.* TO 'monty'@'localhost';
+FLUSH PRIVILEGES;
+quit

@@ -1,0 +1,81 @@
+\documentclass{exam}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{lastpage}
+\usepackage[romanian]{babel}
+\usepackage[a4paper,portrait,margin=1in]{geometry}
+\headrule
+\chead{Inspectoratul Școlar al Cnezatului Craizida}
+\lfoot{Examenul de bacalaureat național}
+\cfoot{Pagina \thepage\ din \pageref{LastPage}}
+\rfoot{Matematică M1}
+\footrule
+\pointpoints{p}{p}
+\pointformat{(\thepoints)}
+\pointsinmargin
+\renewcommand\partlabel{\thepartno)}
+
+\begin{document}
+\begin{center}
+	\bfseries\LARGE
+	Simulare -- Examenul de bacalaureat național
+
+	\Large
+	Matematică M1
+
+	\large
+	28 Ianuarie 2022
+\end{center}
+\textbf{
+	\begin{itemize}
+		\item Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.
+		\item Timpul efectiv de lucru este de trei ore.
+	\end{itemize}
+}
+\section*{SUBIECTUL I}
+\begin{questions}
+	\question[5] Determinați conjugatul numărului $z = (1-i)(1+i)^2$.
+	\question[5] Determinați parametrul real $m$ pentru care ecuația $mx^2+2mx+4=0$ are o singură soluție.
+	\question[5] Rezolvați în mulțimea numerelor reale ecuația $\log_x(x+6) = 2$.
+	\question[5] Determinați probabilitatea ca, alegând un număr de 4 cifre, acesta să aibă o cifră care să apară de cel puțin 3 ori.
+	\question[5] Fie $ABCD$ un pătrat de latură 2. Determinați $\overrightarrow{AB}\times\overrightarrow{AC}$.
+	\question[5] Rezolvați în $(0, \pi)$ ecuația $\sin(x) = 1 - \cos(2x)$.
+\end{questions}
+\section*{SUBIECTUL al II-lea}
+\begin{questions}
+	\question Se consideră matricea $A(x) = \begin{pmatrix}
+		1 & x & 0\\
+		0 & 1 & x\\
+		x & 0 & 1
+	\end{pmatrix}$, unde $x$ este număr real.
+	\begin{parts}
+		\part[5] Calculați $\det(A(2))$.
+		\part[5] Rezolvați în mulțimea numerelor reale ecuația $\det(-A(-x)) = x-1$.
+		\part[5] Determinați inversa matricei $A(1)$.
+	\end{parts}
+	\question Pe mulțimea $\mathbb{R}$ se definește legea de compoziție comutativă $x\star y = x + y + xy$
+	\begin{parts}
+		\part[5] Calculați $2\star(-3)$.
+		\part[5] Arătați că legea de compoziție $\star$ este asociativă.
+		\part[5] Determinați numerele întregi $z$ pentru care $z\star z\star z=z$.
+	\end{parts}
+\end{questions}
+\section*{SUBIECTUL al III-lea}
+\begin{questions}
+	\question Se consideră funcţia $f:\mathbb{R}\to\mathbb{R}, f(x)=\sqrt[3]{x^3+1}$.
+	\begin{parts}
+		\part[5] Arătați că $f'(x)=\frac{x^2}{\sqrt[3]{x^6+2x^3+1}}, x\in\mathbb{R}\backslash\{-1\}$.
+		\part[5] Determinați punctele de intersecție ale graficului funcției $f$, cu cel al lui $f'$.
+		\part[5] Determinați asimptota funcției $f$ spre $+\infty$.
+	\end{parts}
+	\question Se consideră funcţia $f:\mathbb{R}\to\mathbb{R}, f(x)=\frac{e^x-1}{\sqrt{x^2+3e^2}}$.
+	\begin{parts}
+		\part[5] Arătați că $\int_0^e\! \frac{f(x)}{e^x-1} \mathrm{d}x = \ln(\sqrt{3})$.
+		\part[5] Determinați $\int\! \frac{e^x-1}{f(x)} \mathrm{d}x$.
+		\part[5] Arătați că $0\leq \int_0^1\! f(x) \mathrm{d}x \leq \frac{1}{\sqrt{3}}$.
+	\end{parts}
+\end{questions}
+
+\end{document}
+

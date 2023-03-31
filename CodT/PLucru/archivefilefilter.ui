@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkFileFilter" id="ArchiveFileFilter">
+    <patterns>
+      <pattern>*.zip</pattern>
+      <pattern>*.tar</pattern>
+      <pattern>*tar.gz</pattern>
+      <pattern>*tar.bz</pattern>
+      <pattern>*tar.xz</pattern>
+      <pattern>*tgz</pattern>
+      <pattern>*txz</pattern>
+      <pattern>*tbz</pattern>
+    </patterns>
+  </object>
+</interface>

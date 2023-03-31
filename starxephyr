@@ -1,0 +1,3 @@
+#!/bin/sh
+Xephyr -br -ac -noreset -screen 800x600 :1 &
+until DISPLAY=:1 "$@"; do sleep 0.1 ; done

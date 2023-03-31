@@ -1,0 +1,1 @@
+xset q | awk '($6 == "Num") {print $8}'

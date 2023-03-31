@@ -1,0 +1,2 @@
+yt-dlp -x -o '%(channel)s-%(title)s.%(ext)s' --embed-metadata --parse-metadata 'channel:%(artist)s' 'https://link' # global
+yt-dlp -x -o '%(creator)s-%(title)s.%(ext)s' --embed-metadata 'https://link' # good
