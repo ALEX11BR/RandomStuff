@@ -1,2 +1,3 @@
-yt-dlp -x -o '%(channel)s-%(title)s.%(ext)s' --embed-metadata --parse-metadata 'channel:%(artist)s' 'https://link' # global
-yt-dlp -x -o '%(creator)s-%(title)s.%(ext)s' --embed-metadata 'https://link' # good
+yt-dlp -x -o '%(artist)s-%(title)s.%(ext)s' --embed-metadata --parse-metadata 'channel:%(artist)s' -- 'https://global-link'
+yt-dlp -x -o '%(artist)s-%(title)s.%(ext)s' --embed-metadata --parse-metadata 'release_year:(?s)(?P<meta_date>.+)' -- 'https://good-link'
+yt-dlp -x -o '%(artist)s-%(title)s.%(ext)s' --embed-metadata --parse-metadata 'title:%(artist)s - %(title)s' -- 'https://video-link'
